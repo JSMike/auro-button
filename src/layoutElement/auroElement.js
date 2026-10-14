@@ -16,6 +16,7 @@ export class AuroElement extends LitElement {
    */
   attributeWatcher;
 
+  /** @returns {import("lit").PropertyDeclarations} */
   static get properties() {
     return {
       /**

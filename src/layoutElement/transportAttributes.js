@@ -20,6 +20,7 @@ const _transportConfig = new WeakMap();
  * @param {Object} params - The parameters for the function.
  * @param {HTMLElement} params.host - The host element from which attributes will be transported.
  * @param {HTMLElement} params.target - The target element to which attributes will be transported.
+ * @param {(name: string) => boolean} params.match - Whether an attribute should be transported.
  * @param {boolean} [params.removeOriginal=true] - Whether to remove the attributes from the host element.
  * @param {boolean} [params.observe=true] - Whether to attach a MutationObserver to the host element.
  * @returns {Function} A function to detach the observer when no longer needed.

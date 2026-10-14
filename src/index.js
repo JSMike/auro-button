@@ -1,3 +1,1 @@
-import { AuroButton } from "./auro-button";
-
-export { AuroButton };
+export { AuroButton } from "./auro-button.js";

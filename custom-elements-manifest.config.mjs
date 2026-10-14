@@ -1,7 +1,8 @@
-import { deprecatedProseToFieldPlugin } from '@aurodesignsystem/auro-library/scripts/build/deprecatedProseToFieldPlugin.mjs';
+import { deprecatedProseToFieldPlugin } from "@aurodesignsystem/auro-library/scripts/build/deprecatedProseToFieldPlugin.mjs";
+import { publicModulePlugin } from "./scripts/publicModulePlugin.mjs";
 
 export default {
-  globs: ['src/**/*.js'],
+  globs: ["src/**/*.js"],
   litelement: true,
-  plugins: [deprecatedProseToFieldPlugin()]
+  plugins: [deprecatedProseToFieldPlugin(), publicModulePlugin()],
 };
