@@ -179,6 +179,7 @@ export class AuroButton extends AuroElement {
     return [tokensCss, styleCss, colorCss, shapeSize];
   }
 
+  /** @returns {import("lit").PropertyDeclarations} */
   static get properties() {
     return {
       ...AuroElement.properties,
@@ -360,8 +361,7 @@ export class AuroButton extends AuroElement {
   }
 
   /**
-   * Internal method to apply focus to the HTML5 button.
-   * @private
+   * Applies focus to the HTML5 button.
    * @returns {void}
    */
   focus() {

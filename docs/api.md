@@ -44,6 +44,7 @@ actions such as submitting a form, starting a task, or advancing a step in a flo
 
 | Name     | Parameters                                                           | Return | Description                                       |
 | -------- | -------------------------------------------------------------------- | ------ | ------------------------------------------------- |
+| focus    | None                                                                 | void   | Applies focus to the HTML5 button.                |
 | register | `name` (string) - The name of the element that you want to register. |        | This will register this element with the browser. |
 
 ### Slots
